@@ -200,3 +200,19 @@ a:hover {
     font-size: 20px;
   }
 }
+
+/* SEO context section */
+.intro.seo-context {
+  background-color: #f8fafc;
+  border-left: 4px solid #1a73e8;
+  padding: 22px 24px;
+  margin-top: 60px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+}
+
+.intro.seo-context p {
+  font-size: 15px;
+  color: #374151;
+  max-width: 680px;
+}
