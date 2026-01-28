@@ -33,15 +33,19 @@ a:hover {
 }
 
 /* Header */
-.site-header {
-  border-bottom: 1px solid #e5e7eb;
-  margin-bottom: 40px;
+.site-header h1 {
+  font-size: 30px;
+  font-weight: 600;
+  color:#1558b0;
+  margin-bottom: 4px;
 }
 
 .site-title {
-  font-size: 26px;
-  font-weight: 700;
-  color: #111827;
+  font-size: 20px;
+  font-weight: 400;
+  color: #555;
+  font-weight: bold;
+  
 }
 
 .nav {
