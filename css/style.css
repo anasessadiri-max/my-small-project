@@ -339,3 +339,78 @@ a:hover {
 .pillars .article-card {
   background-color: #ffffff;
 }
+
+
+/* ============================
+   Strong Colored Header
+   ============================ */
+
+.site-header {
+  background: linear-gradient(135deg, #1e80ff, #0c3974);
+  padding: 36px 0 26px;
+  margin-bottom: 50px;
+}
+
+/* Layout inside header */
+.site-header .container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Main headline */
+.site-header h1 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #ffffff;
+  line-height: 1.25;
+  margin: 0;
+  
+}
+
+/* Site name */
+.site-title {
+  font-size: 20px;
+  font-weight: 600;
+  color:rgb(41, 255, 255);
+ 
+  letter-spacing: 0.6px;
+  margin: 0;
+  font-weight: bold;
+}
+
+/* Navigation */
+.nav {
+  margin-top: 16px;
+}
+
+.nav a {
+  font-size: 15px;
+  font-weight: 500;
+  color: #e5efff;
+  margin-right: 20px;
+  padding-bottom: 4px;
+  border-bottom: 2px solid transparent;
+}
+
+.nav a:hover {
+  color: #ffffff;
+}
+@media (max-width: 600px) {
+  .site-header {
+    padding: 30px 0 22px;
+  }
+
+  .site-header h1 {
+    font-size: 26px;
+  }
+
+  .site-title {
+    font-size: 15px;
+  }
+
+  .nav a {
+    font-size: 13px;
+    margin-right: 14px;
+  }
+}
